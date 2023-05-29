@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="libraries/commons-beanutils-1.9.4.jar"/>
+	<classpathentry kind="lib" path="libraries/commons-collections4-4.4.jar"/>
+	<classpathentry kind="lib" path="libraries/commons-digester-2.1.jar"/>
+	<classpathentry kind="lib" path="libraries/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="libraries/CustomFontPDF.jar"/>
+	<classpathentry kind="lib" path="libraries/groovy-all-2.4.9.jar"/>
+	<classpathentry kind="lib" path="libraries/itext-2.1.7.jar"/>
+	<classpathentry kind="lib" path="libraries/jasperreports-6.17.0.jar"/>
+	<classpathentry kind="lib" path="libraries/jasperreports-annotation-processors-6.17.0.jar"/>
+	<classpathentry kind="lib" path="libraries/jasperreports-javaflow-6.17.0.jar"/>
+	<classpathentry kind="lib" path="libraries/jasperreports-metadata-6.17.0.jar"/>
+	<classpathentry kind="lib" path="libraries/jcalendar-1.4.jar"/>
+	<classpathentry kind="lib" path="libraries/mysql-connector-java-8.0.24.jar"/>
+	<classpathentry kind="lib" path="libraries/poi-5.0.0.jar"/>
+	<classpathentry kind="lib" path="libraries/synthetica.jar"/>
+	<classpathentry kind="lib" path="libraries/syntheticaSimple2D.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
