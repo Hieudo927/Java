@@ -78,7 +78,7 @@ public class LoginJFrame extends javax.swing.JFrame {
         jlbLoginTitle.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
         jlbLoginTitle.setForeground(new java.awt.Color(102, 102, 0));
         jlbLoginTitle.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jlbLoginTitle.setText("ĐIỆN LỰC BẮC TỪ LIÊM");
+        jlbLoginTitle.setText("QUẢN LÝ TIỀN ĐIỆN");
         jlbLoginTitle.setToolTipText("");
 
         javax.swing.GroupLayout jpnLoginTitleLayout = new javax.swing.GroupLayout(jpnLoginTitle);

@@ -186,8 +186,7 @@ public class HoaDonJPanel extends javax.swing.JPanel {
 
         btnThanhToan.setBackground(new java.awt.Color(0, 204, 204));
         btnThanhToan.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
-        btnThanhToan.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/print.png"))); // NOI18N
-        btnThanhToan.setText("Thanh Toán - In Hoá Đơn");
+        btnThanhToan.setText("Thanh Toán");
         btnThanhToan.setBorder(null);
         btnThanhToan.setPreferredSize(new java.awt.Dimension(150, 20));
 
@@ -215,7 +214,7 @@ public class HoaDonJPanel extends javax.swing.JPanel {
                 .addComponent(jtfSearch, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnThanhToan, javax.swing.GroupLayout.PREFERRED_SIZE, 25, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addContainerGap(7, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jpnHoaDonMainLayout = new javax.swing.GroupLayout(jpnHoaDonMain);
@@ -234,7 +233,7 @@ public class HoaDonJPanel extends javax.swing.JPanel {
             .addGroup(jpnHoaDonMainLayout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jpnHoaDonMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jpnHoaDonDetails, javax.swing.GroupLayout.PREFERRED_SIZE, 262, Short.MAX_VALUE)
+                    .addComponent(jpnHoaDonDetails, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jpnHoaDonView, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                 .addContainerGap())
         );
@@ -294,7 +293,6 @@ public class HoaDonJPanel extends javax.swing.JPanel {
 
         btnLapHoaDon.setBackground(new java.awt.Color(0, 153, 153));
         btnLapHoaDon.setFont(new java.awt.Font("Tahoma", 1, 12)); // NOI18N
-        btnLapHoaDon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/add.png"))); // NOI18N
         btnLapHoaDon.setText("Lập Hoá Đơn");
         btnLapHoaDon.setBorder(null);
 

@@ -32,11 +32,7 @@ public class HomeJPanel extends javax.swing.JPanel {
         jLabel4 = new javax.swing.JLabel();
         jpnMain = new javax.swing.JPanel();
         jpnKhachHang = new javax.swing.JPanel();
-        jlbKhachHangIcon = new javax.swing.JLabel();
-        jlbDetail = new javax.swing.JLabel();
-        jlbNum = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jlbKhachHangIcon1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
         jLabel3 = new javax.swing.JLabel();
 
@@ -63,50 +59,19 @@ public class HomeJPanel extends javax.swing.JPanel {
         jpnKhachHang.setBackground(new java.awt.Color(51, 204, 0));
         jpnKhachHang.setToolTipText("");
 
-        jlbKhachHangIcon.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jlbKhachHangIcon.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/account.png"))); // NOI18N
-
-        jlbDetail.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
-        jlbDetail.setForeground(new java.awt.Color(255, 255, 255));
-        jlbDetail.setText("Khách Hàng");
-
-        jlbNum.setFont(new java.awt.Font("Tahoma", 1, 24)); // NOI18N
-        jlbNum.setForeground(new java.awt.Color(255, 255, 255));
-        jlbNum.setText("123");
-
         javax.swing.GroupLayout jpnKhachHangLayout = new javax.swing.GroupLayout(jpnKhachHang);
         jpnKhachHang.setLayout(jpnKhachHangLayout);
         jpnKhachHangLayout.setHorizontalGroup(
             jpnKhachHangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpnKhachHangLayout.createSequentialGroup()
-                .addGap(26, 26, 26)
-                .addComponent(jlbKhachHangIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(38, 38, 38)
-                .addGroup(jpnKhachHangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jlbDetail)
-                    .addComponent(jlbNum, javax.swing.GroupLayout.Alignment.TRAILING))
-                .addGap(55, 55, 55))
+            .addGap(0, 318, Short.MAX_VALUE)
         );
         jpnKhachHangLayout.setVerticalGroup(
             jpnKhachHangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jpnKhachHangLayout.createSequentialGroup()
-                .addGroup(jpnKhachHangLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jpnKhachHangLayout.createSequentialGroup()
-                        .addGap(28, 28, 28)
-                        .addComponent(jlbNum)
-                        .addGap(52, 52, 52)
-                        .addComponent(jlbDetail))
-                    .addGroup(jpnKhachHangLayout.createSequentialGroup()
-                        .addGap(40, 40, 40)
-                        .addComponent(jlbKhachHangIcon, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                .addGap(49, 49, 49))
+            .addGap(0, 189, Short.MAX_VALUE)
         );
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 0));
         jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-
-        jlbKhachHangIcon1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
-        jlbKhachHangIcon1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/account.png"))); // NOI18N
 
         jLabel2.setText(main.Main.nhanVien.getTenNV());
 
@@ -117,9 +82,7 @@ public class HomeJPanel extends javax.swing.JPanel {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jlbKhachHangIcon1, javax.swing.GroupLayout.PREFERRED_SIZE, 100, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addContainerGap(112, Short.MAX_VALUE)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(jLabel2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addComponent(jLabel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, 167, Short.MAX_VALUE))
@@ -128,36 +91,30 @@ public class HomeJPanel extends javax.swing.JPanel {
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addContainerGap()
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jlbKhachHangIcon1, javax.swing.GroupLayout.DEFAULT_SIZE, 105, Short.MAX_VALUE)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addContainerGap())
+                .addContainerGap(25, Short.MAX_VALUE)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 27, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(26, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout jpnMainLayout = new javax.swing.GroupLayout(jpnMain);
         jpnMain.setLayout(jpnMainLayout);
         jpnMainLayout.setHorizontalGroup(
             jpnMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jpnMainLayout.createSequentialGroup()
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
-            .addComponent(jpnKhachHang, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addComponent(jpnKhachHang, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(jpnMainLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jpnMainLayout.setVerticalGroup(
             jpnMainLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jpnMainLayout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jpnKhachHang, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 381, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 304, Short.MAX_VALUE)
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addGap(83, 83, 83))
         );
 
         javax.swing.GroupLayout jpnRootLayout = new javax.swing.GroupLayout(jpnRoot);
@@ -193,10 +150,6 @@ public class HomeJPanel extends javax.swing.JPanel {
     private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JPanel jPanel1;
-    private javax.swing.JLabel jlbDetail;
-    private javax.swing.JLabel jlbKhachHangIcon;
-    private javax.swing.JLabel jlbKhachHangIcon1;
-    private javax.swing.JLabel jlbNum;
     private javax.swing.JPanel jpnKhachHang;
     private javax.swing.JPanel jpnMain;
     private javax.swing.JPanel jpnRoot;

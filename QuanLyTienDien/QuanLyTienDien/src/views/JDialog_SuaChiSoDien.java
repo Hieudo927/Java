@@ -306,7 +306,6 @@ public class JDialog_SuaChiSoDien extends javax.swing.JDialog {
 
         jLabel_Msg.setFont(new java.awt.Font("Tahoma", 1, 15)); // NOI18N
         jLabel_Msg.setForeground(new java.awt.Color(255, 51, 51));
-        jLabel_Msg.setText("...");
 
         jButton_TroVe.setFont(new java.awt.Font("Tahoma", 0, 15)); // NOI18N
         jButton_TroVe.setText("Trở về");

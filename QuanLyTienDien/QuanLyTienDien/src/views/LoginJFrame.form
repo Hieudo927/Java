@@ -134,7 +134,7 @@
                   <Color blue="0" green="66" red="66" type="rgb"/>
                 </Property>
                 <Property name="horizontalAlignment" type="int" value="0"/>
-                <Property name="text" type="java.lang.String" value="&#x110;I&#x1ec6;N L&#x1ef0;C B&#x1eae;C T&#x1eea; LI&#xca;M"/>
+                <Property name="text" type="java.lang.String" value="QU&#x1ea2;N L&#xdd; TI&#x1ec0;N &#x110;I&#x1ec6;N"/>
                 <Property name="toolTipText" type="java.lang.String" value=""/>
               </Properties>
             </Component>
